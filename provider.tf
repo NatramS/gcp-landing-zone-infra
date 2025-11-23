@@ -1,6 +1,5 @@
 provider "google" {
-  credentials = file("keys/terraform-sa.json")  # Path to your downloaded service account key
-  project     = "your-project-id"               # project ID
-  region      = "us-central1"
-  zone        = "us-central1-a"
+  project     = "neat-motif-478810-k1"               # project ID
+  region      = "asia-south1"
+  zone        = "asia-south1-a"
 }
