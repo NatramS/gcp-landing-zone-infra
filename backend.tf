@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "neat-motif-478810-k1-tfstate"   # Bucket name
-    prefix  = "terraform/state"                # Folder path inside bucket
+    bucket = "neat-motif-478810-k1-tfstate"   # Replace with your actual bucket name
+    prefix = "terraform/state"                # Folder path inside bucket
   }
 }
